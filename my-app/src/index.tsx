@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Library from './chapter03/Library';
+import Accommodate from './chapter07/Accommodate';
+import AttendenceBook from './cahapter10/AttendanceBook';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Library />
+    <AttendenceBook />
   </React.StrictMode>
 );
 
